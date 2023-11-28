@@ -66,10 +66,10 @@ function App() {
                       Código e descrição: {item.numeroAlimento} - {item.descricao}<br/>
                       Grupo: {item.categoriaAlimentos?.descricao}<br/>
                       Calorias: {item.energiaKcal} (Kcal) | {item.energiaKg} (Kg)<br/>
-                      Proteína: {item.proteina}<br/>
-                      Carboidrato: {item.carboidrato}<br/>
-                      Lipídios: {item.lipidios}<br/>
-                      Colesterol: {item.colesterol}
+                      Proteína: {item.proteina}g<br/>
+                      Carboidrato: {item.carboidrato}g<br/>
+                      Lipídios: {item.lipidios}g<br/>
+                      Colesterol: {item.colesterol}mg
                     </h4>
                   </div>
                 )
